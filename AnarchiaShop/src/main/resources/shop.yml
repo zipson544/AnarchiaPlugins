@@ -1,0 +1,77 @@
+# Sklep - mozesz edytowac tutaj albo w grze komendami /sklep dodaj|usun|cena|kategoria
+#
+# kategorie:  id -> name (z kolorami &), icon (nazwa materialu)
+# przedmioty: category, buy (cena kupna, 0 = nie mozna kupic),
+#             sell (cena sprzedazy, 0 = nie mozna sprzedac),
+#             oraz jedno z:  material: NAZWA   |   item: (dodane komenda w grze)
+
+categories:
+  bloki:
+    name: "&aBloki"
+    icon: GRASS_BLOCK
+  narzedzia:
+    name: "&bNarzedzia"
+    icon: DIAMOND_PICKAXE
+  jedzenie:
+    name: "&6Jedzenie"
+    icon: COOKED_BEEF
+  surowce:
+    name: "&eSurowce"
+    icon: DIAMOND
+
+items:
+  b1:
+    category: bloki
+    material: COBBLESTONE
+    buy: 5
+    sell: 1
+  b2:
+    category: bloki
+    material: OAK_LOG
+    buy: 10
+    sell: 2
+  b3:
+    category: bloki
+    material: OBSIDIAN
+    buy: 200
+    sell: 40
+  n1:
+    category: narzedzia
+    material: DIAMOND_PICKAXE
+    buy: 1500
+    sell: 300
+  n2:
+    category: narzedzia
+    material: DIAMOND_SWORD
+    buy: 1200
+    sell: 250
+  n3:
+    category: narzedzia
+    material: ELYTRA
+    buy: 50000
+    sell: 0
+  j1:
+    category: jedzenie
+    material: COOKED_BEEF
+    buy: 20
+    sell: 4
+  j2:
+    category: jedzenie
+    material: GOLDEN_APPLE
+    buy: 300
+    sell: 60
+  s1:
+    category: surowce
+    material: DIAMOND
+    buy: 400
+    sell: 100
+  s2:
+    category: surowce
+    material: IRON_INGOT
+    buy: 40
+    sell: 10
+  s3:
+    category: surowce
+    material: NETHERITE_INGOT
+    buy: 8000
+    sell: 2000

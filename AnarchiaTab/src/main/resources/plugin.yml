@@ -1,0 +1,7 @@
+name: AnarchiaTab
+version: 1.0.0
+main: pl.anarchia.tab.AnarchiaTab
+api-version: '1.21'
+depend: [Vault, packetevents]
+softdepend: [Essentials]
+description: Tablista 4-kolumnowa (PacketEvents)

@@ -1,0 +1,47 @@
+# Konfiguracja AnarchiaScoreboard
+sektor: "SPAWN05"
+kanal-komenda: "/ch"
+
+
+
+scoreboard:
+  update-ticks: 20          # co ile ticków odswiezaja sie linie
+  title-ticks: 10           # co ile ticków zmienia sie klatka tytulu
+  title-frames:
+    - "&f&lANARCHIA&b&l.&f&lGG"
+    - "&b&lA&f&lNARCHIA&b&l.&f&lGG"
+    - "&f&lA&b&lN&f&lARCHIA&b&l.&f&lGG"
+    - "&f&lAN&b&lA&f&lRCHIA&b&l.&f&lGG"
+    - "&f&lANA&b&lR&f&lCHIA&b&l.&f&lGG"
+    - "&f&lANAR&b&lC&f&lHIA&b&l.&f&lGG"
+    - "&f&lANARC&b&lH&f&lIA&b&l.&f&lGG"
+    - "&f&lANARCH&b&lI&f&lA&b&l.&f&lGG"
+    - "&f&lANARCHI&b&lA&b&l.&f&lGG"
+    - "&f&lANARCHIA&b&l.&f&lGG"
+  # Placeholdery: {nick} {klan} {serca} {czas} {kasa} {zabojstwa} {smierci}
+  #               {kdr} {ping} {online} {sektor} {kanal}   (max 15 linii)
+  lines:
+    - "&b⚔ &fGracz: &b{nick}"
+    - "&6⚑ &fKlan: &6{klan}"
+    - "&4❤ &fSerca: &c{serca}"
+    - "&e⌚ &fCzas gry: &e{czas}"
+    - "&a$ &fStan konta: &a{kasa}$"
+    - "&c☠ &fZabójstwa: &c{zabojstwa}"
+    - "&7☠ &fŚmierci: &7{smierci}"
+    - "&d⚔ &fKDR: &d{kdr}"
+    - ""
+    - "&fJesteś na &a&l{sektor} &7({kanal})"
+
+
+messages:
+  prefix: "&8[&bScoreboard&8] "
+  no-permission: "&cNie masz uprawnien."
+  reloaded: "&aPrzeladowano konfiguracje."
+  sb-hidden: "&7Scoreboard &cukryty&7. Wpisz &f/sb &7aby go pokazac."
+  sb-shown: "&7Scoreboard &apokazany&7."
+  sb-usage: "&eUzycie: /sb [on|off]"
+  clan-has: "&cJuz jestes w klanie! Uzyj /klan opusc"
+  clan-bad-name: "&cNazwa klanu: 2-8 znakow, tylko litery i cyfry."
+  clan-created: "&aStworzyles klan &6{clan}"
+  clan-left: "&aOpusciles klan."
+  clan-usage: "&eUzycie: /klan stworz <nazwa> | /klan opusc"

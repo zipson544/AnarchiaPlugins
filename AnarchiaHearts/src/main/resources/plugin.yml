@@ -1,0 +1,19 @@
+name: AnarchiaHearts
+version: 1.0.0
+main: pl.anarchia.hearts.AnarchiaHearts
+api-version: '1.21'
+description: Dodatkowe Serca (czerwone do 30) i Anarchiczne Serce (pomaranczowe 30-40)
+commands:
+  serca:
+    description: Administracja sercami
+    usage: /serca <give <gracz> <red|orange> [ilosc] | set <gracz> <serca> | reload>
+  wyplacserca:
+    description: Wyplaca podana liczbe serc jako przedmioty
+    usage: /wyplacserca <ilosc>
+  wyplacserce:
+    description: Wyplaca jedno serce jako przedmiot
+    usage: /wyplacserce
+permissions:
+  anarchiahearts.admin:
+    description: Komenda /serca (give, set, reload)
+    default: op

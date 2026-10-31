@@ -1,0 +1,38 @@
+# Konfiguracja AnarchiaHearts
+default-hearts: 10        # serca na start (10 = 20 HP)
+per-use: 1                # ile serc dodaje jedno uzycie
+min-withdraw: 10          # ponizej tylu serc nie mozna wyplacac
+red:
+  material: RED_DYE
+  custom-model-data: 0    # ustaw, jesli masz resource pack z ikona serca
+  name: "&cDodatkowe Serca"
+  lore:
+    - "&7Kliknij prawym przyciskiem,"
+    - "&7aby dodac sobie serce."
+    - "&7Dziala do &c30 &7serc."
+  max-hearts: 30
+orange:
+  material: ORANGE_DYE
+  custom-model-data: 0
+  name: "&6Anarchiczne Serce"
+  lore:
+    - "&7Kliknij prawym przyciskiem,"
+    - "&7aby dodac sobie serce."
+    - "&7Dziala od &630 &7do &640 &7serc."
+  min-hearts: 30
+  max-hearts: 40
+
+messages:
+  prefix: "&8[&cSerca&8] "
+  no-permission: "&cNie masz uprawnien."
+  no-player: "&cNie ma takiego gracza online."
+  reloaded: "&aPrzeladowano konfiguracje."
+  used: "&aDodano serce! Masz teraz &c{hearts} &aserc."
+  red-max: "&cMasz juz maksymalna liczbe serc dla tego przedmiotu (&e{max}&c). Uzyj Anarchicznego Serca!"
+  orange-min: "&cAnarchiczne Serce mozesz uzyc dopiero po osiagnieciu &e{min} &cserc."
+  orange-max: "&cOsiagnales juz maksymalna liczbe serc (&e{max}&c)."
+  withdrawn: "&aWyplaciles &c{amount} &aserc. Masz teraz &c{hearts} &aserc."
+  withdraw-usage: "&eUzycie: /wyplacserca <ilosc> lub /wyplacserce (jedno serce)"
+  withdraw-none: "&cNie mozesz wyplacic serc - minimum to &e{min} &cserc."
+  withdraw-too-many: "&cMozesz wyplacic maksymalnie &e{available} &cserc."
+  admin-usage: "&eUzycie: /serca give <gracz> <red|orange> [ilosc] | set <gracz> <serca> | reload"

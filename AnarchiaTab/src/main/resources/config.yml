@@ -1,0 +1,27 @@
+# Konfiguracja AnarchiaTab (wymaga pluginow Vault i PacketEvents)
+tab:
+  header:
+    - "&f&lANARCHIA&a&l.GG"
+    - "&aTwój ulubiony serwer Minecraft!"
+    - "&7{online} osób na serwerze"
+  footer:
+    - "&fZnajdujesz się na trybie &aAnarchiaSMP &7 {online} osób"
+    - "&fDiscord: &adc.anarchia.gg &7| &fSklep: &aanarchia.gg/sklep"
+  info:
+    - "&e&lINFORMACJE"
+    - ""
+    - "&7Obserwuj nasze social"
+    - "&7media, aby być na"
+    - "&7bieżąco!"
+    - ""
+    - "&aDISCORD: &fdc.anarchia.gg"
+    - "&aSKLEP: &fanarchia.gg"
+    - ""
+    - "&e&lDODATKOWE INFORMACJE"
+    - ""
+    - "&7/zestawy"
+    - "&7/pomoc"
+    - "&7/rangi"
+    - "&7/sklep"
+    - "&7/topki"
+

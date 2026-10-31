@@ -1,0 +1,15 @@
+name: AnarchiaShop
+version: 1.0.0
+main: pl.anarchia.shop.AnarchiaShop
+api-version: '1.21'
+depend: [Vault]
+softdepend: [Essentials]
+description: Sklep serwera (/sklep)
+commands:
+  sklep:
+    description: Sklep serwera
+    usage: /sklep [kategoria]
+permissions:
+  anarchia.shop.admin:
+    description: Edycja sklepu (/sklep dodaj, usun, cena, kategoria, reload)
+    default: op

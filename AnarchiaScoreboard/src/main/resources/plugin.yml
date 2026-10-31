@@ -1,0 +1,21 @@
+name: AnarchiaScoreboard
+version: 1.0.0
+main: pl.anarchia.scoreboard.AnarchiaScoreboard
+api-version: '1.21'
+depend: [Vault]
+softdepend: [Essentials]
+description: Scoreboard w stylu Anarchia.gg
+commands:
+  sb:
+    description: Ukrywa / pokazuje scoreboard
+    usage: /sb [on|off|reload]
+  sbpokaz:
+    description: Tworzy i pokazuje scoreboard
+    usage: /sbpokaz
+  klan:
+    description: Prosty system klanow
+    usage: /klan <stworz <nazwa> | opusc>
+permissions:
+  anarchiascoreboard.admin:
+    description: Komenda /sb reload
+    default: op
